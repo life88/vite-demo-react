@@ -35,7 +35,7 @@ function App() {
   console.log('routes ', routes);
 
   let basename = undefined;
-  if (process.env.BUILD_ENV === 'gh-pages') {
+  if (import.meta.env.BUILD_ENV === 'gh-pages') {
     basename = '/vite-demo-react';
   }
 

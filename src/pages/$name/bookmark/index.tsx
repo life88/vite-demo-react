@@ -1,6 +1,6 @@
 import { Card, Input, message, Space, Tree } from 'antd';
 import { DirectoryTreeProps } from 'antd/es/tree/DirectoryTree';
-import React, { startTransition, useEffect, useLayoutEffect, useState } from 'react';
+import React, { startTransition, useEffect, useLayoutEffect, useRef, useState } from 'react';
 
 import dataNode from '@/assets/咲奈Sakina-bookmark.json';
 
@@ -44,12 +44,14 @@ const getTreeData = (keyword: string, tree: BookmarkItem[]) => {
       const strTitle = item.title as string;
       const index = strTitle.toLowerCase().indexOf(keyword.toLowerCase());
       const preStr = strTitle.substring(0, index);
-      const sufStr = strTitle.substring(index + keyword.length);
+      const len = index + keyword.length;
+      const str = strTitle.substring(index, len);
+      const sufStr = strTitle.substring(len);
       const title =
         index > -1 ? (
           <span>
             {preStr}
-            <span style={{ color: 'red' }}>{keyword}</span>
+            <span style={{ color: 'red' }}>{str}</span>
             {sufStr}
           </span>
         ) : (
@@ -69,6 +71,7 @@ const getTreeData = (keyword: string, tree: BookmarkItem[]) => {
 };
 
 export default function BookmarkPage() {
+  const treeRef = useRef<any>();
   const [loading, setLoading] = useState(false);
   const [expandedKeys, setExpandedKeys] = useState<React.Key[]>([defaultKey]);
   const [autoExpandParent, setAutoExpandParent] = useState(true);
@@ -78,7 +81,6 @@ export default function BookmarkPage() {
 
   const onExpand = (newExpandedKeys: React.Key[]) => {
     setExpandedKeys(newExpandedKeys);
-    setAutoExpandParent(false);
   };
 
   const onSearch = async (value: string) => {
@@ -102,6 +104,8 @@ export default function BookmarkPage() {
         setExpandedKeys(newExpandedKeys);
         setAutoExpandParent(true);
         setLoading(false);
+        const [firstKey] = newExpandedKeys;
+        treeRef.current?.scrollTo?.({ key: defaultKey, align: 'top' });
       });
     } else {
       setLoading(false);
@@ -109,7 +113,8 @@ export default function BookmarkPage() {
     }
   }, [keyword]);
 
-  const treeProps: DirectoryTreeProps<BookmarkItem> = {
+  const treeProps: DirectoryTreeProps<BookmarkItem> & { ref: React.Ref<any> } = {
+    ref: treeRef,
     treeData,
     selectable: false,
     onExpand,

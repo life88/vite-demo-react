@@ -1,7 +1,7 @@
 import { Spin } from 'antd';
 import React, { Suspense } from 'react';
 import { RouteObject, RouterProvider } from 'react-router';
-import { createBrowserRouter } from 'react-router-dom';
+import { createBrowserRouter, createHashRouter } from 'react-router-dom';
 
 import { keyToPath } from '@/utils';
 
@@ -34,24 +34,20 @@ function App() {
   });
   console.log('routes ', routes);
 
-  let basename = undefined;
-  if (import.meta.env.VITE_BUILD_ENV === 'gh-pages') {
-    basename = '/vite-demo-react';
-  }
-
-  const router = createBrowserRouter(
-    [
-      {
-        path: '/',
-        element: <LoadingComponent element={React.lazy(() => import('@/layouts'))} />,
-        children: routes,
-      },
-    ],
+  const rootRoutes = [
     {
-      basename,
+      path: '/',
+      element: <LoadingComponent element={React.lazy(() => import('@/layouts'))} />,
+      children: routes,
     },
-  );
+  ];
 
+  let router;
+  if (import.meta.env.VITE_BUILD_ENV === 'gh-pages') {
+    router = createHashRouter(rootRoutes);
+  } else {
+    router = createBrowserRouter(rootRoutes);
+  }
   return <RouterProvider router={router} />;
 }
 

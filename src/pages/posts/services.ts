@@ -1,3 +1,4 @@
+import { PostsSearchProps } from '@/pages/posts/type';
 import request from '@/utils/request';
 
 export interface Post {
@@ -15,8 +16,10 @@ export interface Comment {
   body: string;
 }
 
-export function posts() {
-  return request<Post[]>('/posts');
+export function posts(params?: PostsSearchProps) {
+  return request<Post[]>('/posts', {
+    params,
+  });
 }
 
 export function post(id: number) {

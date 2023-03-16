@@ -1,18 +1,23 @@
-import { Table, TableColumnProps, TableProps, Tooltip } from 'antd';
+import { Button, Col, Form, FormProps, Input, Row, Space, Table, TableColumnProps, TableProps, Tooltip } from 'antd';
+import { useState } from 'react';
 import { useQuery } from 'react-query';
 import { Link } from 'react-router-dom';
 import { useProxy } from 'valtio/utils';
 
+import './index.less';
 import postsStore, { postsActions } from './model';
 import { Post, posts } from './services';
+import { PostsSearchProps } from './type';
 
 export default function PostsPage() {
+  const [form] = Form.useForm();
+  const [params, setParams] = useState<PostsSearchProps>();
   const state = useProxy(postsStore);
 
   const { isLoading, data } = useQuery({
-    queryKey: ['posts'],
+    queryKey: ['posts', params],
     queryFn: () => {
-      return posts();
+      return posts(params);
     },
   });
 
@@ -54,6 +59,27 @@ export default function PostsPage() {
     },
   ];
 
+  const onFinish = (values: PostsSearchProps) => {
+    setParams(values);
+  };
+
+  const onReset = () => {
+    setParams(undefined);
+    form.resetFields();
+  };
+
+  const formProps: FormProps = {
+    form,
+    onFinish,
+    labelCol: {
+      span: 6,
+    },
+    wrapperCol: {
+      span: 18,
+    },
+    layout: 'horizontal',
+  };
+
   const tableProps: TableProps<Post> = {
     rowKey: 'id',
     columns,
@@ -69,7 +95,28 @@ export default function PostsPage() {
 
   return (
     <div>
-      <Table {...tableProps} />
+      <div className="search-wrapper">
+        <Form {...formProps}>
+          <Row gutter={24} style={{ rowGap: 24 }}>
+            <Col span={6}>
+              <Form.Item label="Title" name="title">
+                <Input placeholder="Please enter in the title" />
+              </Form.Item>
+            </Col>
+            <Col span={6}>
+              <Space>
+                <Button type="primary" htmlType="submit" loading={isLoading}>
+                  查询
+                </Button>
+                <Button onClick={onReset}>重置</Button>
+              </Space>
+            </Col>
+          </Row>
+        </Form>
+      </div>
+      <div className="list-wrapper">
+        <Table {...tableProps} />
+      </div>
     </div>
   );
 }

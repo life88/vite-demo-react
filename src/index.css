@@ -22,6 +22,17 @@
   background-color: #d8dce3;
 }
 
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7f7;
+  margin: 0;
+}
+
+#root {
+  padding: 24px;
+}
+
 .page-loading {
   width: 100%;
   text-align: center;

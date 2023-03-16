@@ -1,11 +1,11 @@
-import { Button, List } from 'antd';
+import { List } from 'antd';
 import { useQuery } from 'react-query';
-import { useNavigate, useParams } from 'react-router';
+import { useParams } from 'react-router';
+import { Link } from 'react-router-dom';
 
 import { comments, post } from './services';
 
 export default function PostPage() {
-  const navigate = useNavigate();
   const params = useParams();
   const { postId } = params;
 
@@ -36,9 +36,7 @@ export default function PostPage() {
         </div>
       )}
       <p>
-        <Button type="primary" onClick={() => navigate(-1)}>
-          Go back list page
-        </Button>
+        <Link to="/posts">Go back</Link>
       </p>
       {isCommentsLoading ? (
         'Loading...'

@@ -33,13 +33,24 @@ function App() {
     });
   });
   console.log('routes ', routes);
-  const router = createBrowserRouter([
+
+  let basename = undefined;
+  if (process.env.BUILD_ENV === 'gh-pages') {
+    basename = '/vite-demo-react';
+  }
+
+  const router = createBrowserRouter(
+    [
+      {
+        path: '/',
+        element: <LoadingComponent element={React.lazy(() => import('@/layouts'))} />,
+        children: routes,
+      },
+    ],
     {
-      path: '/',
-      element: <LoadingComponent element={React.lazy(() => import('@/layouts'))} />,
-      children: routes,
+      basename,
     },
-  ]);
+  );
 
   return <RouterProvider router={router} />;
 }

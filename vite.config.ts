@@ -4,9 +4,14 @@ import { defineConfig } from 'vite';
 
 const proxyHost = 'https://jsonplaceholder.typicode.com';
 
+let base = '/';
+if (process.env.BUILD_ENV === 'gh-pages') {
+  base = './';
+}
+
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: './',
+  base,
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),

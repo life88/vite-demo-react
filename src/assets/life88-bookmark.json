@@ -1,0 +1,1946 @@
+{
+  "key": "10001",
+  "title": "书签栏",
+  "children": [
+    {
+      "key": "10046",
+      "title": "flickr",
+      "href": "https://www.flickr.com/search/?text=%E9%A3%8E%E6%99%AF"
+    },
+    {
+      "key": "10047",
+      "title": "百度一下，你就知道",
+      "href": "https://www.baidu.com/"
+    },
+    {
+      "key": "10048",
+      "title": "必应",
+      "href": "https://cn.bing.com/?FORM=BEHPTB"
+    },
+    {
+      "key": "10049",
+      "title": "Google",
+      "href": "https://www.google.com/"
+    },
+    {
+      "key": "10354",
+      "title": "git",
+      "children": [
+        {
+          "key": "10050",
+          "title": "GitHub",
+          "href": "https://github.com/"
+        },
+        {
+          "key": "10056",
+          "title": "我的工作台 - Gitee.com",
+          "href": "https://gitee.com/"
+        },
+        {
+          "key": "10460",
+          "title": "git 仓库管理",
+          "children": [
+            {
+              "key": "10461",
+              "title": "popomore/projj: Manage repository easily.",
+              "href": "https://github.com/popomore/projj"
+            },
+            {
+              "key": "10491",
+              "title": "xn-sakina/tanyao: Git repo clone and multi-account manager",
+              "href": "https://github.com/xn-sakina/tanyao"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "10051",
+      "title": "翻译",
+      "children": [
+        {
+          "key": "10052",
+          "title": "Google 翻译",
+          "href": "https://translate.google.com.hk/?hl=zh-CN&sourceid=cnhp"
+        },
+        {
+          "key": "10053",
+          "title": "DeepL翻译器",
+          "href": "https://www.deepl.com/translator"
+        }
+      ]
+    },
+    {
+      "key": "10350",
+      "title": "技术",
+      "children": [
+        {
+          "key": "10355",
+          "title": "js",
+          "children": [
+            {
+              "key": "10421",
+              "title": "OCR",
+              "children": [
+                {
+                  "key": "10422",
+                  "title": "naptha/tesseract.js: Pure Javascript OCR for more than 100 Languages 📖🎉🖥",
+                  "href": "https://github.com/naptha/tesseract.js"
+                }
+              ]
+            },
+            {
+              "key": "10505",
+              "title": "文件尺寸转化",
+              "children": [
+                {
+                  "key": "10506",
+                  "title": "sindresorhus/pretty-bytes: Convert bytes to a human readable string: 1337 → 1.34 kB",
+                  "href": "https://github.com/sindresorhus/pretty-bytes"
+                }
+              ]
+            },
+            {
+              "key": "10503",
+              "title": "请求库",
+              "children": [
+                {
+                  "key": "10504",
+                  "title": "axios/axios: Promise based HTTP client for the browser and node.js",
+                  "href": "https://github.com/axios/axios"
+                }
+              ]
+            },
+            {
+              "key": "10501",
+              "title": "文件上传",
+              "children": [
+                {
+                  "key": "10502",
+                  "title": "stophecom/sharrr-svelte: End-to-end encrypted file transfer.",
+                  "href": "https://github.com/stophecom/sharrr-svelte"
+                }
+              ]
+            },
+            {
+              "key": "10520",
+              "title": "跟随鼠标移动动画",
+              "children": [
+                {
+                  "key": "10521",
+                  "title": "jj811208/watching-you: watching-you is a javascript library for building animations that watch anything on DOM 👀.",
+                  "href": "https://github.com/jj811208/watching-you"
+                }
+              ]
+            },
+            {
+              "key": "10536",
+              "title": "动画库",
+              "children": [
+                {
+                  "key": "10445",
+                  "title": "framer/motion: Open source, production-ready animation and gesture library for React",
+                  "href": "https://github.com/framer/motion"
+                }
+              ]
+            },
+            {
+              "key": "10537",
+              "title": "mock",
+              "children": [
+                {
+                  "key": "10538",
+                  "title": "mswjs/msw: Seamless REST/GraphQL API mocking library for browser and Node.js.",
+                  "href": "https://github.com/mswjs/msw"
+                }
+              ]
+            },
+            {
+              "key": "10540",
+              "title": "标尺组件库",
+              "children": [
+                {
+                  "key": "10541",
+                  "title": "mockingbot/mb-sketch-ruler: A sketch like ruler in javascript",
+                  "href": "https://github.com/mockingbot/mb-sketch-ruler"
+                },
+                {
+                  "key": "10542",
+                  "title": "kakajun/vue3-sketch-ruler: Zoom operation of page display in vue2 / 3",
+                  "href": "https://github.com/kakajun/vue3-sketch-ruler"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "10120",
+          "title": "java",
+          "children": [
+            {
+              "key": "10550",
+              "title": "动态数据源",
+              "children": [
+                {
+                  "key": "10551",
+                  "title": "baomidou/dynamic-datasource-spring-boot-starter: dynamic datasource for springboot 多数据源 动态数据源 主从分离 读写分离 分布式事务",
+                  "href": "https://github.com/baomidou/dynamic-datasource-spring-boot-starter"
+                }
+              ]
+            },
+            {
+              "key": "10580",
+              "title": "spring",
+              "children": [
+                {
+                  "key": "10579",
+                  "title": "Spring Initializr",
+                  "href": "https://start.spring.io/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "10356",
+          "title": "nodejs",
+          "children": [
+            {
+              "key": "10466",
+              "title": "command",
+              "children": [
+                {
+                  "key": "10470",
+                  "title": "tj/commander.js: node.js command-line interfaces made easy",
+                  "href": "https://github.com/tj/commander.js"
+                },
+                {
+                  "key": "10469",
+                  "title": "fabiospampinato/tiny-bin: A library for building tiny and beautiful command line apps.",
+                  "href": "https://github.com/fabiospampinato/tiny-bin"
+                },
+                {
+                  "key": "10479",
+                  "title": "natemoo-re/clack: Effortlessly build beautiful command-line apps",
+                  "href": "https://github.com/natemoo-re/clack"
+                }
+              ]
+            },
+            {
+              "key": "10471",
+              "title": "fs",
+              "children": [
+                {
+                  "key": "10473",
+                  "title": "jprichardson/node-fs-extra: Node.js: extra methods for the fs object like copy(), remove(), mkdirs()",
+                  "href": "https://github.com/jprichardson/node-fs-extra"
+                },
+                {
+                  "key": "10477",
+                  "title": "unjs/pathe: 🛣️ Drop-in replacement of the Node.js's path module module that ensures paths are normalized",
+                  "href": "https://github.com/unjs/pathe"
+                },
+                {
+                  "key": "10478",
+                  "title": "markthree/go-get-folder-size: Get the size of a folder by recursively iterating through all its sub(files && folders). Use go, so high-speed",
+                  "href": "https://github.com/markthree/go-get-folder-size"
+                }
+              ]
+            },
+            {
+              "key": "10474",
+              "title": "execa",
+              "children": [
+                {
+                  "key": "10476",
+                  "title": "sindresorhus/execa: Process execution for humans",
+                  "href": "https://github.com/sindresorhus/execa"
+                }
+              ]
+            },
+            {
+              "key": "10481",
+              "title": "git-commits",
+              "children": [
+                {
+                  "key": "10480",
+                  "title": "Nutlope/aicommits: A CLI that writes your git commit messages for you with AI --- Nultope/aicommits：一个使用 AI 为您编写 git 提交消息的 CLI",
+                  "href": "https://github.com/Nutlope/aicommits"
+                }
+              ]
+            },
+            {
+              "key": "10489",
+              "title": "url-parse",
+              "children": [
+                {
+                  "key": "10490",
+                  "title": "IonicaBizau/git-url-parse: A high level git url parser for common git providers.",
+                  "href": "https://github.com/IonicaBizau/git-url-parse"
+                }
+              ]
+            },
+            {
+              "key": "10557",
+              "title": "ts类型重置",
+              "children": [
+                {
+                  "key": "10558",
+                  "title": "total-typescript/ts-reset: A 'CSS reset' for TypeScript, improving types for common JavaScript API's",
+                  "href": "https://github.com/total-typescript/ts-reset"
+                }
+              ]
+            },
+            {
+              "key": "10555",
+              "title": "文本生成流程图",
+              "children": [
+                {
+                  "key": "10556",
+                  "title": "mermaid-js/mermaid: Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown",
+                  "href": "https://github.com/mermaid-js/mermaid"
+                }
+              ]
+            },
+            {
+              "key": "10564",
+              "title": "项目预设",
+              "children": [
+                {
+                  "key": "10565",
+                  "title": "sapegin/mrm: Codemods for your project config files",
+                  "href": "https://github.com/sapegin/mrm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "10357",
+          "title": "linux",
+          "children": []
+        },
+        {
+          "key": "10351",
+          "title": "chrome",
+          "children": [
+            {
+              "key": "10341",
+              "title": "chrome扩展仓库",
+              "children": [
+                {
+                  "key": "10342",
+                  "title": "用户脚本",
+                  "href": "https://greasyfork.org/zh-CN/scripts"
+                },
+                {
+                  "key": "10343",
+                  "title": "OpenUserJS",
+                  "href": "https://openuserjs.org/"
+                }
+              ]
+            },
+            {
+              "key": "10562",
+              "title": "翻译扩展",
+              "children": [
+                {
+                  "key": "10561",
+                  "title": "yetone/openai-translator: 基于 ChatGPT API 的划词翻译 Chrome 插件",
+                  "href": "https://github.com/yetone/openai-translator"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "10193",
+          "title": "web前端",
+          "children": [
+            {
+              "key": "10381",
+              "title": "监控",
+              "children": [
+                {
+                  "key": "10057",
+                  "title": "项目仪表盘 - Sentry",
+                  "href": "https://sentry.io/organizations/4103fa631179/projects/"
+                }
+              ]
+            },
+            {
+              "key": "10442",
+              "title": "react",
+              "children": [
+                {
+                  "key": "10444",
+                  "title": "动画&手势库",
+                  "children": []
+                },
+                {
+                  "key": "10483",
+                  "title": "状态库",
+                  "children": [
+                    {
+                      "key": "10484",
+                      "title": "pmndrs/valtio: 💊 Valtio makes proxy-state simple for React and Vanilla",
+                      "href": "https://github.com/pmndrs/valtio"
+                    },
+                    {
+                      "key": "10485",
+                      "title": "pmndrs/zustand: 🐻 Bear necessities for state management in React",
+                      "href": "https://github.com/pmndrs/zustand"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "10443",
+              "title": "vue",
+              "children": []
+            },
+            {
+              "key": "10548",
+              "title": "scrollbar",
+              "children": [
+                {
+                  "key": "10549",
+                  "title": "Scrollbar",
+                  "href": "https://scrollbar.app/"
+                }
+              ]
+            },
+            {
+              "key": "10571",
+              "title": "动画",
+              "children": [
+                {
+                  "key": "10572",
+                  "title": "justin-chu/react-fast-marquee: A lightweight React component that utilizes the power of CSS animations to create silky smooth marquees.",
+                  "href": "https://github.com/justin-chu/react-fast-marquee"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "10369",
+          "title": "工具",
+          "children": [
+            {
+              "key": "10371",
+              "title": "cron表达式生成器",
+              "children": [
+                {
+                  "key": "10237",
+                  "title": "在线Cron表达式生成器",
+                  "href": "http://cron.qqe2.com/"
+                }
+              ]
+            },
+            {
+              "key": "10372",
+              "title": "代码生成手写流程图",
+              "children": [
+                {
+                  "key": "10242",
+                  "title": "Sketchviz - Create and publish Graphviz graphs on the web for free",
+                  "href": "https://sketchviz.com/new"
+                }
+              ]
+            },
+            {
+              "key": "10373",
+              "title": "AST",
+              "children": [
+                {
+                  "key": "10243",
+                  "title": "AST explorer",
+                  "href": "https://astexplorer.net/"
+                }
+              ]
+            },
+            {
+              "key": "10377",
+              "title": "图片处理",
+              "children": [
+                {
+                  "key": "10251",
+                  "title": "iLoveIMG | 图像文件在线编辑工具",
+                  "href": "https://www.iloveimg.com/zh-cn"
+                },
+                {
+                  "key": "10512",
+                  "title": "ScreenToGif",
+                  "href": "https://www.screentogif.com/"
+                },
+                {
+                  "key": "10547",
+                  "title": "woltapp/blurhash: A very compact representation of a placeholder for an image.",
+                  "href": "https://github.com/woltapp/blurhash"
+                }
+              ]
+            },
+            {
+              "key": "10380",
+              "title": "drawio",
+              "children": [
+                {
+                  "key": "10020",
+                  "title": "绘图 - diagrams.net",
+                  "href": "https://app.diagrams.net/"
+                }
+              ]
+            },
+            {
+              "key": "10451",
+              "title": "接码",
+              "children": [
+                {
+                  "key": "10452",
+                  "title": "SMS-Activate是在线接受短信的虚拟号码服务",
+                  "href": "https://sms-activate.org/cn#"
+                }
+              ]
+            },
+            {
+              "key": "10500",
+              "title": "密码管理",
+              "children": [
+                {
+                  "key": "10499",
+                  "title": "Bitwarden Open Source Password Manager | Bitwarden",
+                  "href": "https://bitwarden.com/"
+                }
+              ]
+            },
+            {
+              "key": "10507",
+              "title": "格式转码",
+              "children": [
+                {
+                  "key": "10508",
+                  "title": "WEBM转GIF - 免费在线将WEBM文件转换成GIF",
+                  "href": "https://cdkm.com/cn/webm-to-gif"
+                },
+                {
+                  "key": "10511",
+                  "title": "Tichau/FileConverter: File Converter is a very simple tool which allows you to convert and compress one or several file(s) using the context menu in windows explorer.",
+                  "href": "https://github.com/Tichau/FileConverter"
+                }
+              ]
+            },
+            {
+              "key": "10509",
+              "title": "播放器",
+              "children": [
+                {
+                  "key": "10510",
+                  "title": "Downloads - VideoLAN",
+                  "href": "https://get.videolan.org/vlc/3.0.18/win64/vlc-3.0.18-win64.exe"
+                }
+              ]
+            },
+            {
+              "key": "10543",
+              "title": "局域网传输",
+              "children": [
+                {
+                  "key": "10544",
+                  "title": "localsend/localsend: An open source cross-platform alternative to AirDrop",
+                  "href": "https://github.com/localsend/localsend"
+                }
+              ]
+            },
+            {
+              "key": "10545",
+              "title": "windows字体优化",
+              "children": [
+                {
+                  "key": "10546",
+                  "title": "snowie2000/mactype: Better font rendering for Windows.",
+                  "href": "https://github.com/snowie2000/mactype"
+                }
+              ]
+            },
+            {
+              "key": "10582",
+              "title": "投屏控制",
+              "children": [
+                {
+                  "key": "10583",
+                  "title": "Genymobile/scrcpy: Display and control your Android device",
+                  "href": "https://github.com/Genymobile/scrcpy"
+                }
+              ]
+            },
+            {
+              "key": "10585",
+              "title": "npm库下载排名",
+              "children": [
+                {
+                  "key": "10584",
+                  "title": "npm rank",
+                  "href": "https://www.npmrank.net/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "10396",
+          "title": "服务器",
+          "children": [
+            {
+              "key": "10450",
+              "title": "HostMem",
+              "children": [
+                {
+                  "key": "10328",
+                  "title": "HostMem - 我的经典云服务器",
+                  "href": "https://vm.hostmem.com/server/list"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "10399",
+          "title": "梯子",
+          "children": [
+            {
+              "key": "10423",
+              "title": "v2rayN(客户端)",
+              "children": [
+                {
+                  "key": "10424",
+                  "title": "2dust/v2rayN: A V2Ray client for Windows, support Xray core and v2fly core",
+                  "href": "https://github.com/2dust/v2rayN"
+                }
+              ]
+            },
+            {
+              "key": "10406",
+              "title": "v2rayNG(客户端)",
+              "children": [
+                {
+                  "key": "10400",
+                  "title": "2dust/v2rayNG: A V2Ray client for Android, support Xray core and v2fly core",
+                  "href": "https://github.com/2dust/v2rayNG"
+                }
+              ]
+            },
+            {
+              "key": "10407",
+              "title": "CloudSS",
+              "children": [
+                {
+                  "key": "10405",
+                  "title": "Portal Home - CloudSS",
+                  "href": "https://global.cloudss.org/"
+                }
+              ]
+            },
+            {
+              "key": "10408",
+              "title": "红杏(稳定)",
+              "children": [
+                {
+                  "key": "10409",
+                  "title": "红杏",
+                  "href": "https://v2hx.xyz/#/plan"
+                }
+              ]
+            },
+            {
+              "key": "10410",
+              "title": "飞鸟FlyingBird(够用)",
+              "children": [
+                {
+                  "key": "10411",
+                  "title": "首页 — FlyingBird",
+                  "href": "https://aff01.fyb-aff01.com/user"
+                }
+              ]
+            },
+            {
+              "key": "10412",
+              "title": "机场导航",
+              "children": [
+                {
+                  "key": "10413",
+                  "title": "XYZ",
+                  "href": "https://9.234456.xyz/abc.html?t=638109585007879242"
+                }
+              ]
+            },
+            {
+              "key": "10428",
+              "title": "可乐云",
+              "children": [
+                {
+                  "key": "10429",
+                  "title": "Kelecloud",
+                  "href": "https://kele123.net/"
+                }
+              ]
+            },
+            {
+              "key": "10431",
+              "title": "clash",
+              "children": [
+                {
+                  "key": "10433",
+                  "title": "Dreamacro/clash: A rule-based tunnel in Go.",
+                  "href": "https://github.com/Dreamacro/clash"
+                },
+                {
+                  "key": "10432",
+                  "title": "Releases · yichengchen/clashX",
+                  "href": "https://github.com/yichengchen/clashX"
+                },
+                {
+                  "key": "10435",
+                  "title": "Fndroid/clash_for_windows_pkg: A Windows/macOS GUI based on Clash",
+                  "href": "https://github.com/Fndroid/clash_for_windows_pkg"
+                },
+                {
+                  "key": "10434",
+                  "title": "Kr328/ClashForAndroid: A rule-based tunnel for Android.",
+                  "href": "https://github.com/Kr328/ClashForAndroid"
+                },
+                {
+                  "key": "10457",
+                  "title": "Loyalsoldier/clash-rules: 🦄️ 🎃 👻 Clash Premium 规则集(RULE-SET)，兼容 ClashX Pro、Clash for Windows 客户端。",
+                  "href": "https://github.com/Loyalsoldier/clash-rules"
+                },
+                {
+                  "key": "10493",
+                  "title": "分享一个parser，实现自动替换订阅规则，完全使用自己的规则，自由切换黑白名单。 · Issue #2193 · Fndroid/clash_for_windows_pkg",
+                  "href": "https://github.com/Fndroid/clash_for_windows_pkg/issues/2193"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "10401",
+          "title": "ai",
+          "children": [
+            {
+              "key": "10453",
+              "title": "ChatGPT",
+              "children": [
+                {
+                  "key": "10402",
+                  "title": "New chat",
+                  "href": "https://chat.openai.com/chat"
+                },
+                {
+                  "key": "10454",
+                  "title": "PlexPt/awesome-chatgpt-prompts-zh: ChatGPT 中文调教指南。怎么让它听你的话。",
+                  "href": "https://github.com/PlexPt/awesome-chatgpt-prompts-zh"
+                },
+                {
+                  "key": "10455",
+                  "title": "f/awesome-chatgpt-prompts: This repo includes ChatGPT prompt curation to use ChatGPT better.",
+                  "href": "https://github.com/f/awesome-chatgpt-prompts"
+                },
+                {
+                  "key": "10495",
+                  "title": "pengzhile/pandora: 潘多拉，一个命令行的ChatGPT。",
+                  "href": "https://github.com/pengzhile/pandora"
+                },
+                {
+                  "key": "10559",
+                  "title": "Account - OpenAI API",
+                  "href": "https://platform.openai.com/account/usage"
+                },
+                {
+                  "key": "10563",
+                  "title": "fuergaosi233/wechat-chatgpt: Use ChatGPT On Wechat via wechaty",
+                  "href": "https://github.com/fuergaosi233/wechat-chatgpt"
+                },
+                {
+                  "key": "10573",
+                  "title": "microsoft/visual-chatgpt: VisualChatGPT",
+                  "href": "https://github.com/microsoft/visual-chatgpt"
+                },
+                {
+                  "key": "10575",
+                  "title": "openai/openai-cookbook: Examples and guides for using the OpenAI API",
+                  "href": "https://github.com/openai/openai-cookbook"
+                },
+                {
+                  "key": "10586",
+                  "title": "justjavac/chatgpt: ChatGPT 从入门到精通",
+                  "href": "https://github.com/justjavac/chatgpt"
+                }
+              ]
+            },
+            {
+              "key": "10513",
+              "title": "Stable-diffusion",
+              "children": [
+                {
+                  "key": "10514",
+                  "title": "AUTOMATIC1111/stable-diffusion-webui: Stable Diffusion web UI",
+                  "href": "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
+                },
+                {
+                  "key": "10515",
+                  "title": "KKGo1999/Stable-diffusion-person: 由基于Stable-diffusion的Chilloutmix模型生成高清真实的人像",
+                  "href": "https://github.com/KKGo1999/Stable-diffusion-person"
+                },
+                {
+                  "key": "10516",
+                  "title": "phodal/ai-research-for-practise: 【🔞🔞🔞 内含不适合未成年人阅读的图片】基于我擅长的编程、绘画、写作展开的 AI 探索和总结：StableDiffusion 是一种强大的图像生成模型，能够通过对一张图片进行演化来生成新的图片。ChatGPT 是一个基于 Transformer 的语言生成模型，它能够自动为输入的主题生成合适的文章。而 Github Copilot 是一个智能编程助手，能够加速日常编程活动。",
+                  "href": "https://github.com/phodal/ai-research-for-practise"
+                },
+                {
+                  "key": "10517",
+                  "title": "camenduru/stable-diffusion-webui-colab: stable diffusion webui colab",
+                  "href": "https://github.com/camenduru/stable-diffusion-webui-colab"
+                },
+                {
+                  "key": "10539",
+                  "title": "Scribble Diffusion",
+                  "href": "https://scribblediffusion.com/"
+                }
+              ]
+            },
+            {
+              "key": "10553",
+              "title": "ControlNet",
+              "children": [
+                {
+                  "key": "10554",
+                  "title": "lllyasviel/ControlNet: Let us control diffusion models!",
+                  "href": "https://github.com/lllyasviel/ControlNet"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "10415",
+          "title": "json",
+          "children": [
+            {
+              "key": "10416",
+              "title": "可视化",
+              "children": [
+                {
+                  "key": "10417",
+                  "title": "AykutSarac/jsoncrack.com: 🔮 Seamlessly visualize your JSON data instantly into graphs; paste, import or fetch!",
+                  "href": "https://github.com/AykutSarac/jsoncrack.com"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "10418",
+          "title": "网络",
+          "children": [
+            {
+              "key": "10419",
+              "title": "DNS检测",
+              "children": [
+                {
+                  "key": "10420",
+                  "title": "sun0day/dns-detector: A nodejs cli tool to resolve host's IPs",
+                  "href": "https://github.com/sun0day/dns-detector"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "10526",
+          "title": "self-hosted",
+          "children": [
+            {
+              "key": "10522",
+              "title": "消息推送",
+              "children": [
+                {
+                  "key": "10523",
+                  "title": "binwiederhier/ntfy: Send push notifications to your phone or desktop using PUT/POST",
+                  "href": "https://github.com/binwiederhier/ntfy"
+                },
+                {
+                  "key": "10524",
+                  "title": "Gotify · a simple server for sending and receiving messages",
+                  "href": "https://gotify.net/"
+                },
+                {
+                  "key": "10525",
+                  "title": "Bark",
+                  "href": "https://bark.day.app/#/"
+                }
+              ]
+            },
+            {
+              "key": "10527",
+              "title": "电子书",
+              "children": [
+                {
+                  "key": "10528",
+                  "title": "janeczku/calibre-web: Web app for browsing, reading and downloading eBooks stored in a Calibre database",
+                  "href": "https://github.com/janeczku/calibre-web"
+                },
+                {
+                  "key": "10529",
+                  "title": "Kareadita/Kavita: Kavita is a fast, feature rich, cross platform reading server. Built with a focus for manga and the goal of being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family.",
+                  "href": "https://github.com/Kareadita/Kavita"
+                }
+              ]
+            },
+            {
+              "key": "10531",
+              "title": "笔记记录工具",
+              "children": [
+                {
+                  "key": "10530",
+                  "title": "usememos/memos: An open-source, self-hosted memo hub with knowledge management and social networking.",
+                  "href": "https://github.com/usememos/memos"
+                }
+              ]
+            },
+            {
+              "key": "10532",
+              "title": "awesome-selfhosted/awesome-selfhosted: A list of Free Software network services and web applications which can be hosted on your own servers",
+              "href": "https://github.com/awesome-selfhosted/awesome-selfhosted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "10375",
+      "title": "文档",
+      "children": [
+        {
+          "key": "10368",
+          "title": "blog",
+          "children": [
+            {
+              "key": "10446",
+              "title": "git",
+              "children": [
+                {
+                  "key": "10207",
+                  "title": "优雅的提交你的 Git Commit Message - 掘金",
+                  "href": "https://juejin.im/post/5afc5242f265da0b7f44bee4"
+                },
+                {
+                  "key": "10486",
+                  "title": "百里挑 15 个 Git 技巧",
+                  "href": "https://mp.weixin.qq.com/s/5Mmd51cpGKxmm7WULNvUyw"
+                }
+              ]
+            },
+            {
+              "key": "10447",
+              "title": "阮一峰",
+              "children": [
+                {
+                  "key": "10414",
+                  "title": "阮一峰的网络日志",
+                  "href": "https://ruanyifeng.com/blog/"
+                },
+                {
+                  "key": "10577",
+                  "title": "GitHub Actions 入门教程 - 阮一峰的网络日志",
+                  "href": "http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html"
+                }
+              ]
+            },
+            {
+              "key": "10448",
+              "title": "低码平台",
+              "children": [
+                {
+                  "key": "10449",
+                  "title": "什么是比较好的低代码产品 - 掘金",
+                  "href": "https://juejin.cn/post/7184673014980542521"
+                }
+              ]
+            },
+            {
+              "key": "10458",
+              "title": "咲奈",
+              "children": [
+                {
+                  "key": "10459",
+                  "title": "咲奈书签库",
+                  "href": "https://bookmark-store-zsxq-core-member-beta-version.fz6m.com/"
+                },
+                {
+                  "key": "10578",
+                  "title": "咲奈的博客_CSDN博客-Web,css,Skill领域博主",
+                  "href": "https://blog.csdn.net/qq_21567385"
+                }
+              ]
+            },
+            {
+              "key": "10462",
+              "title": "云谦",
+              "children": [
+                {
+                  "key": "10463",
+                  "title": "257 - 《如何从 0 开始配置 MacBookPro》",
+                  "href": "https://articles.zsxq.com/id_2urteasfkk2c.html"
+                }
+              ]
+            },
+            {
+              "key": "10518",
+              "title": "tw93",
+              "children": [
+                {
+                  "key": "10519",
+                  "title": "潮流周刊",
+                  "href": "https://weekly.tw93.fun/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "10376",
+          "title": "nginx配置",
+          "children": [
+            {
+              "key": "10245",
+              "title": "NGINX Config | DigitalOcean",
+              "href": "https://www.digitalocean.com/community/tools/nginx"
+            }
+          ]
+        },
+        {
+          "key": "10385",
+          "title": "MDN",
+          "children": [
+            {
+              "key": "10167",
+              "title": "JavaScript 对象",
+              "href": "https://msdn.microsoft.com/zh-cn/library/htbw4ywd(v=vs.94).aspx"
+            },
+            {
+              "key": "10031",
+              "title": "Web 开发技术 | MDN",
+              "href": "https://developer.mozilla.org/zh-CN/docs/Web"
+            }
+          ]
+        },
+        {
+          "key": "10386",
+          "title": "ES6",
+          "children": [
+            {
+              "key": "10169",
+              "title": "ECMAScript 6 入门 - ECMAScript 6入门",
+              "href": "http://es6.ruanyifeng.com/"
+            }
+          ]
+        },
+        {
+          "key": "10388",
+          "title": "站点",
+          "children": [
+            {
+              "key": "10212",
+              "title": "SegmentFault",
+              "href": "https://segmentfault.com/"
+            },
+            {
+              "key": "10213",
+              "title": "掘金",
+              "href": "http://gold.xitu.io/welcome/frontend/?utm_source=css88&utm_medium=word&utm_content=ganhuo&utm_campaign=q3_personal"
+            },
+            {
+              "key": "10014",
+              "title": "Quick Reference & Quick Reference",
+              "href": "https://wangchujiang.com/reference/"
+            },
+            {
+              "key": "10533",
+              "title": "V2EX",
+              "href": "https://www.v2ex.com/"
+            }
+          ]
+        },
+        {
+          "key": "10389",
+          "title": "markdown",
+          "children": [
+            {
+              "key": "10215",
+              "title": "Markdown 语法说明(简体中文版)",
+              "href": "http://www.appinn.com/markdown/"
+            }
+          ]
+        },
+        {
+          "key": "10397",
+          "title": "lodash",
+          "children": [
+            {
+              "key": "10209",
+              "title": "lodash中文文档 - 首页",
+              "href": "http://lodash.think2011.net/chunk"
+            }
+          ]
+        },
+        {
+          "key": "10403",
+          "title": "语雀",
+          "children": [
+            {
+              "key": "10404",
+              "title": "工作台 · 语雀",
+              "href": "https://www.yuque.com/dashboard"
+            }
+          ]
+        },
+        {
+          "key": "10425",
+          "title": "字体",
+          "children": [
+            {
+              "key": "10426",
+              "title": "霞鹜文楷(免费)",
+              "children": [
+                {
+                  "key": "10427",
+                  "title": "lxgw/LxgwWenKai: An open-source Chinese font derived from Fontworks' Klee One. 一款开源中文字体，基于 FONTWORKS 出品字体 Klee One 衍生。",
+                  "href": "https://github.com/lxgw/LxgwWenKai"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "10436",
+          "title": "图片",
+          "children": [
+            {
+              "key": "10438",
+              "title": "Beautiful Free Images & Pictures | Unsplash",
+              "href": "https://unsplash.com/"
+            },
+            {
+              "key": "10437",
+              "title": "免费正版高清图片素材库 超过2.7百万张优质图片和视频素材可供免费使用和下载 - Pixabay - Pixabay",
+              "href": "https://pixabay.com/zh/"
+            }
+          ]
+        },
+        {
+          "key": "10439",
+          "title": "壁纸",
+          "children": [
+            {
+              "key": "10440",
+              "title": "Awesome Wallpapers - wallhaven.cc",
+              "href": "https://wallhaven.cc/"
+            },
+            {
+              "key": "10441",
+              "title": "极简壁纸_海量电脑桌面壁纸美图_4K超高清_最潮壁纸网站",
+              "href": "https://bz.zzzmh.cn/index"
+            }
+          ]
+        },
+        {
+          "key": "10496",
+          "title": "微软开发者文档",
+          "children": [
+            {
+              "key": "10497",
+              "title": "在 Windows 上設定開發環境 | Microsoft Learn",
+              "href": "https://learn.microsoft.com/zh-tw/windows/dev-environment/"
+            },
+            {
+              "key": "10498",
+              "title": "winget-cli/settings.schema.0.2.json at master · microsoft/winget-cli",
+              "href": "https://github.com/microsoft/winget-cli/blob/master/schemas/JSON/settings/settings.schema.0.2.json"
+            }
+          ]
+        },
+        {
+          "key": "10568",
+          "title": "表情",
+          "children": [
+            {
+              "key": "10567",
+              "title": "Emoji searcher",
+              "href": "https://emoji.muan.co/"
+            },
+            {
+              "key": "10566",
+              "title": "ikatyang/emoji-cheat-sheet: A markdown version emoji cheat sheet",
+              "href": "https://github.com/ikatyang/emoji-cheat-sheet"
+            },
+            {
+              "key": "10569",
+              "title": "zhaoolee/ChineseBQB: 🇨🇳 Chinese sticker pack,More joy / 表情包的博物馆, Github最有毒的仓库, 中国表情包大集合, 聚欢乐~",
+              "href": "https://github.com/zhaoolee/ChineseBQB"
+            }
+          ]
+        },
+        {
+          "key": "10587",
+          "title": "google rust教程",
+          "children": [
+            {
+              "key": "10588",
+              "title": "google/comprehensive-rust: This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust to everyone.",
+              "href": "https://github.com/google/comprehensive-rust"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "10063",
+      "title": "广告",
+      "children": [
+        {
+          "key": "10064",
+          "title": "我的首页 微博-随时随地发现新鲜事",
+          "href": "https://weibo.com/u/6335202155/home?wvr=5&lf=reg"
+        },
+        {
+          "key": "10065",
+          "title": "渠道合作一站式平台-代理商后台",
+          "href": "https://agent.oceanengine.com/admin/homepage"
+        },
+        {
+          "key": "10066",
+          "title": "百度推广",
+          "href": "https://tuiguang.baidu.com/home.html?t=20180816213440&userid=25297867&castk=f3106iq79321c2873d510"
+        },
+        {
+          "key": "10067",
+          "title": "新浪统一商业门户",
+          "href": "http://agent.ad.sina.com.cn/?1532435039304#/customer"
+        },
+        {
+          "key": "10068",
+          "title": "巨量纵横-推广",
+          "href": "https://business.oceanengine.com/site/promotion?#/account"
+        },
+        {
+          "key": "10069",
+          "title": "凤羽客户平台",
+          "href": "http://customer.feather.ifeng.com/welcome"
+        },
+        {
+          "key": "10070",
+          "title": "推广账户-推广管理-今日头条投放管理平台",
+          "href": "https://ad.toutiao.com/overture/data/advertiser/ad/"
+        },
+        {
+          "key": "10071",
+          "title": "海能论股市的微博_微博",
+          "href": "https://weibo.com/6405740232/manage"
+        },
+        {
+          "key": "10072",
+          "title": "一买就跌？一卖就涨？80%的股民都忽视了这件事......",
+          "href": "http://t01.stockhn.com/2017/11YD1/"
+        },
+        {
+          "key": "10073",
+          "title": "腾讯企业邮箱-登录入口",
+          "href": "https://exmail.qq.com/login"
+        },
+        {
+          "key": "10074",
+          "title": "新浪广告位置 - 腾讯企业邮箱",
+          "href": "https://exmail.qq.com/cgi-bin/frame_html?sid=Hm06rPF7JaWcAih0,2&r=93e9888fa5c29c85b9d43880f1b0b12a"
+        },
+        {
+          "key": "10075",
+          "title": "我是如何从5万炒股赚到200多万的？",
+          "href": "https://vip.stockhn.com/share/WebContent/pc/project21/invest.jsp"
+        },
+        {
+          "key": "10076",
+          "title": "【重磅】5G板块再上风口，红利行情一触即发，这3只5G概念股或将暴涨67%！",
+          "href": "https://vip.stockhn.com/share/WebContent/pc/projectTDJ2/invest.jsp"
+        },
+        {
+          "key": "10077",
+          "title": "海能推广监控管理后台",
+          "href": "http://www.fantui2018.com/HnManage/Backstage/Index"
+        },
+        {
+          "key": "10078",
+          "title": "推广账户-推广管理-巨量引擎广告投放平台",
+          "href": "https://ad.oceanengine.com/overture/data/advertiser/ad/"
+        },
+        {
+          "key": "10079",
+          "title": "新浪统一商业门户0925",
+          "href": "http://client.ad.sina.com.cn/#/index"
+        },
+        {
+          "key": "10080",
+          "title": "量旗大讲堂的微博_微博",
+          "href": "https://weibo.com/p/1006067220403851/home?from=page_100606&mod=TAB#place"
+        },
+        {
+          "key": "10081",
+          "title": "超级粉丝通",
+          "href": "https://ad.weibo.com/ad/index/manage?customer_id=7220403851"
+        },
+        {
+          "key": "10082",
+          "title": "广告组-推广管理-巨量引擎广告投放平台",
+          "href": "https://ad.oceanengine.com/overture/data/campaign/ad/?campaign_id=1649980328395812"
+        },
+        {
+          "key": "10083",
+          "title": "Admin",
+          "href": "https://magbackend.niuguwang.com/user/Admin/UserChannelStatistics.aspx"
+        },
+        {
+          "key": "10084",
+          "title": "后台管理-课程管理-海能投顾",
+          "href": "http://sysadmin.hntz18.com/Sub/CourseManage"
+        },
+        {
+          "key": "10085",
+          "title": "https://vpnpass.niuguwang.com",
+          "href": "https://vpnpass.niuguwang.com/"
+        },
+        {
+          "key": "10086",
+          "title": "主播：海能投顾_海能投顾的电台_海能投顾广播在线收听-喜马拉雅FM",
+          "href": "https://www.ximalaya.com/zhubo/183631440/"
+        },
+        {
+          "key": "10087",
+          "title": "主播后台",
+          "href": "https://admin.qingting.fm/"
+        },
+        {
+          "key": "10088",
+          "title": "Coremail邮件系统",
+          "href": "https://mail.niuguwang.com/coremail/XT3/index.jsp?sid=BACkZQssKmdRyGVIoSssqKlyzfsfhEVP"
+        },
+        {
+          "key": "10089",
+          "title": "https://vpnpass.niuguwang.com/cgi/send.pl",
+          "href": "https://vpnpass.niuguwang.com/cgi/send.pl"
+        },
+        {
+          "key": "10090",
+          "title": "华为应用市场付费推广",
+          "href": "https://developer.huawei.com/consumer/cn/service/apcs/app/memberCenter.html#!/aplPromote/aplPromoteList"
+        },
+        {
+          "key": "10091",
+          "title": "小米营销-广告管理",
+          "href": "http://e.mi.com/v2/dist/plan.html#/"
+        },
+        {
+          "key": "10092",
+          "title": "360点睛实效平台",
+          "href": "https://mobile.e.360.cn/adplan/list?plan_id=&solution_id=&campaignid=&solutionid=&ad_model=RTB&ad_type=-1&disabled=-1&equalbudgetflag=-1&os=&startdate=2020-07-15&enddate=2020-07-15&search_text=&exact=&_csrf=emQxb0d2blAyHFs4KgceFyg8AF0yOAdgQw5kLCMOCx40IXI3AEUNIA%3D%3D"
+        },
+        {
+          "key": "10093",
+          "title": "潜在客户列表",
+          "href": "https://netservice.stockhn.com/SourceInfo/List?t=637334696099200027"
+        },
+        {
+          "key": "10094",
+          "title": "公众号",
+          "href": "https://mp.weixin.qq.com/cgi-bin/home?t=home/index&lang=zh_CN&token=1503947891"
+        },
+        {
+          "key": "10095",
+          "title": "微信广告服务商平台",
+          "href": "https://a.weixin.qq.com/client"
+        },
+        {
+          "key": "10096",
+          "title": "统计列表曹文苗",
+          "href": "https://netservice.stockhn.com/Statistics/List?BJ=J04r"
+        },
+        {
+          "key": "10097",
+          "title": "360移动开放平台-助力开发者腾飞",
+          "href": "http://dev.360.cn/mod3/mobilenavs/index?_=757622656"
+        },
+        {
+          "key": "10098",
+          "title": "腾讯开放平台 OPEN.QQ.COM",
+          "href": "http://op.open.qq.com/mobile_appinfov2/apkinfo?appid=1101298094"
+        },
+        {
+          "key": "10099",
+          "title": "『帐号』-登录",
+          "href": "https://id.heytap.com/index.html?callback=https%3A%2F%2Fopen.oppomobile.com"
+        },
+        {
+          "key": "10100",
+          "title": "vivo开放平台",
+          "href": "https://dev.vivo.com.cn/appLists"
+        },
+        {
+          "key": "10101",
+          "title": "AppGallery Connect",
+          "href": "https://developer.huawei.com/consumer/cn/service/josp/agc/index.html#/myApp/10144491/974583343109141980"
+        },
+        {
+          "key": "10102",
+          "title": "应用列表 - 应用中心 - 百度移动开放平台",
+          "href": "https://app.baidu.com/apps/"
+        },
+        {
+          "key": "10103",
+          "title": "联想开放平台",
+          "href": "http://open.lenovo.com/developer/login_info.jspx"
+        },
+        {
+          "key": "10104",
+          "title": "魅族开发者中心",
+          "href": "http://developer.meizu.com/console/apps/app/list"
+        },
+        {
+          "key": "10105",
+          "title": "Samsung Galaxy Store Seller Portal",
+          "href": "https://seller.samsungapps.com/main/sellerMain.as"
+        },
+        {
+          "key": "10106",
+          "title": "小米开放平台",
+          "href": "https://dev.mi.com/myitems/0/0?userId=252971945"
+        },
+        {
+          "key": "10107",
+          "title": "360点睛实效平台",
+          "href": "https://mobile.e.360.cn/adplan/list?plan_id=&solution_id=&campaignid=&solutionid=&ad_model=RTB&ad_type=-1&disabled=-1&equalbudgetflag=-1&os=&startdate=2020-08-28&enddate=2020-08-28&search_text=&exact=&_csrf=QUNCa05RLXcGNzgmBxcZOBAXcyQtGXU7LCkNOBE%2FbAUtEHM7OT9AOA%3D%3D"
+        },
+        {
+          "key": "10108",
+          "title": "海能推广监控",
+          "href": "http://fw.firtwi.com/Manage/Backstage/Index"
+        },
+        {
+          "key": "10109",
+          "title": "腾讯广告 - 投放管理",
+          "href": "https://ad.qq.com/atlas/8995883/index"
+        },
+        {
+          "key": "10110",
+          "title": "百度营销-首页",
+          "href": "https://tuiguang.baidu.com/oneWeb.html?userid=31359130&castk=39b36kt766f7f49d7d119"
+        },
+        {
+          "key": "10111",
+          "title": "list - Ant Design Pro",
+          "href": "https://newm.51xrz.com/wx-number/list/"
+        },
+        {
+          "key": "10112",
+          "title": "上传号码 - Ant Design Pro",
+          "href": "http://newm.51xrz.com/wx-number/upload/"
+        },
+        {
+          "key": "10113",
+          "title": "腾讯广告",
+          "href": "https://sso.e.qq.com/login/portal?sso_redirect_uri=https%3A%2F%2Fe.qq.com%2Fads%2F&service_tag=10"
+        },
+        {
+          "key": "10114",
+          "title": "福建加微反馈 - 金山文档",
+          "href": "https://www.kdocs.cn/l/ciio6YaXel2b"
+        },
+        {
+          "key": "10115",
+          "title": "腾讯文档",
+          "href": "https://docs.qq.com/blankpage/DZFVZc05tRUFnV1hQ?tab=1atoml"
+        },
+        {
+          "key": "10116",
+          "title": "加微反馈",
+          "href": "https://docs.qq.com/sheet/DWm5ERURKcFlVWU5M?tab=1yfjat&_t=1610452474105"
+        },
+        {
+          "key": "10117",
+          "title": "后台管理系统",
+          "href": "http://manage.m.icaikee.com/#/index"
+        },
+        {
+          "key": "10118",
+          "title": "玖垣加微反馈",
+          "href": "https://docs.qq.com/sheet/DVHlvc1pST1VMclFw?tab=BB08J2"
+        },
+        {
+          "key": "10119",
+          "title": "微信号",
+          "href": "https://docs.qq.com/sheet/DSVZobUFVUE1sT05K?tab=BB08J2"
+        }
+      ]
+    },
+    {
+      "key": "10055",
+      "title": "工作",
+      "children": [
+        {
+          "key": "10387",
+          "title": "taoxeo",
+          "children": [
+            {
+              "key": "10187",
+              "title": "我的工作台 - RGG TEAM 项目管理平台",
+              "href": "http://redmine.taoxeo.com/redmine/my/page"
+            },
+            {
+              "key": "10188",
+              "title": "Sonatype Nexus",
+              "href": "http://rep.taoxeo.com/index.html#welcome"
+            },
+            {
+              "key": "10191",
+              "title": "概述 - HDS_MS - XTEAM项目管理平台",
+              "href": "http://redmine.taoxeo.com/redmine/projects/hds_ms"
+            },
+            {
+              "key": "10192",
+              "title": "下一个雨季~ - 控制面板 - MAXNOO",
+              "href": "http://git.maxnoo.com/"
+            }
+          ]
+        },
+        {
+          "key": "10379",
+          "title": "红星",
+          "children": [
+            {
+              "key": "10006",
+              "title": "打印中心",
+              "href": "http://10.6.8.220/nu_login"
+            },
+            {
+              "key": "10007",
+              "title": "家居集团OA",
+              "href": "http://login.oa.chinaredstar.com/Login.aspx?appcode=2001&returnurl=http://oa.chinaredstar.com/main/home/ssologin?foxredirecturl=/"
+            },
+            {
+              "key": "10464",
+              "title": "邮件 - wbli.chenghu@chinaredstar.com",
+              "href": "https://mail.chinaredstar.com/owa/#path=/mail"
+            },
+            {
+              "key": "10017",
+              "title": "Projects · Dashboard · GitLab",
+              "href": "http://code.corp.rs.com/dashboard/projects"
+            },
+            {
+              "key": "10018",
+              "title": "信息技术中心技术架构部 - 信息技术中心技术架构部 - Confluence",
+              "href": "http://wiki.corp.rs.com/pages/viewpage.action?pageId=24871962"
+            },
+            {
+              "key": "10021",
+              "title": "2022年产研人员资源安排与工作计划 - 信息技术中心技术架构部 - Confluence",
+              "href": "http://wiki.corp.rs.com/pages/viewpage.action?pageId=65412872"
+            },
+            {
+              "key": "10023",
+              "title": "02_技术方案评审模板 - 信息技术中心技术架构部 - Confluence",
+              "href": "http://wiki.corp.rs.com/pages/viewpage.action?pageId=65413619"
+            },
+            {
+              "key": "10025",
+              "title": "Sinopia",
+              "href": "http://npm.corp.rs.com/"
+            },
+            {
+              "key": "10026",
+              "title": "Layout / Alert - Variants ⋅ Storybook",
+              "href": "http://generator-component.uat1.rs.com/?path=/story/layout-alert--variants"
+            },
+            {
+              "key": "10027",
+              "title": "协同平台",
+              "href": "http://xt.corp.rs.com/#/"
+            },
+            {
+              "key": "10029",
+              "title": "地盘 - 禅道",
+              "href": "http://xt.corp.rs.com/pms/index.php?m=my&f=index"
+            },
+            {
+              "key": "10033",
+              "title": "Swagger UI",
+              "href": "http://admin-longguo.uat1.rs.com/longguo-e/swagger-ui.html#/"
+            },
+            {
+              "key": "10034",
+              "title": "2023年产研人员资源安排与工作计划 - 信息技术中心技术架构部 - Confluence",
+              "href": "http://wiki.corp.rs.com/pages/viewpage.action?pageId=72627110"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "10260",
+      "title": "娱乐",
+      "children": [
+        {
+          "key": "10361",
+          "title": "影视",
+          "children": [
+            {
+              "key": "10262",
+              "title": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+              "href": "https://www.bilibili.com/"
+            },
+            {
+              "key": "10263",
+              "title": "腾讯视频 - 中国领先的在线视频媒体平台,海量高清视频在线观看",
+              "href": "https://v.qq.com/"
+            },
+            {
+              "key": "10265",
+              "title": "豆瓣电影TOP250",
+              "href": "http://movie.douban.com/top250"
+            },
+            {
+              "key": "10266",
+              "title": "比特鱼BT-全集BT种子|BT下载|BT电影下载|BT种子下载之家",
+              "href": "http://www.bitfish8.com/"
+            },
+            {
+              "key": "10269",
+              "title": "YouTube",
+              "href": "https://www.youtube.com/"
+            }
+          ]
+        },
+        {
+          "key": "10362",
+          "title": "音乐",
+          "children": [
+            {
+              "key": "10261",
+              "title": "QQ音乐-千万正版音乐海量无损曲库新歌热歌天天畅听的高品质音乐平台！",
+              "href": "https://y.qq.com/"
+            }
+          ]
+        },
+        {
+          "key": "10363",
+          "title": "游戏",
+          "children": [
+            {
+              "key": "10332",
+              "title": "游戏资料-英雄联盟官方网站-腾讯游戏",
+              "href": "https://lol.qq.com/data/info-heros.shtml"
+            },
+            {
+              "key": "10331",
+              "title": "LoL Stats, Record Replay, Database, Guide, MMR - OP.GG",
+              "href": "http://euw.op.gg/"
+            },
+            {
+              "key": "10335",
+              "title": "《新天龙八部》官方网站-2016浪漫武侠网游巨作",
+              "href": "http://tl.changyou.com/main.shtml"
+            },
+            {
+              "key": "10339",
+              "title": "AZ电竞-lol战队排名-电竞赛事分析网",
+              "href": "http://www.2cpseo.com/"
+            }
+          ]
+        },
+        {
+          "key": "10364",
+          "title": "论坛",
+          "children": [
+            {
+              "key": "10340",
+              "title": "光环助手游戏专区_热门游戏一站式服务_最新资讯_精品攻略_WIKI图鉴_实用工具",
+              "href": "https://www.ghzs666.com/zone"
+            }
+          ]
+        },
+        {
+          "key": "10365",
+          "title": "知乎",
+          "children": [
+            {
+              "key": "10268",
+              "title": "首页 - 知乎",
+              "href": "https://www.zhihu.com/"
+            }
+          ]
+        },
+        {
+          "key": "10366",
+          "title": "直播",
+          "children": [
+            {
+              "key": "10333",
+              "title": "英雄联盟 - 斗鱼",
+              "href": "https://www.douyu.com/directory/game/LOL"
+            },
+            {
+              "key": "10334",
+              "title": "直播_精彩解说直播_视频 - 虎牙直播",
+              "href": "http://www.huya.com/g/lol"
+            }
+          ]
+        },
+        {
+          "key": "10367",
+          "title": "解压",
+          "children": [
+            {
+              "key": "10336",
+              "title": "ZType – Typing Game - Type to Shoot",
+              "href": "http://zty.pe/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "10344",
+      "title": "学习",
+      "children": [
+        {
+          "key": "10358",
+          "title": "学校",
+          "children": [
+            {
+              "key": "10345",
+              "title": "西电 - 网院信息管理系统",
+              "href": "http://www.xdwy.com.cn/xdwymis/loginController.do?login"
+            },
+            {
+              "key": "10347",
+              "title": "西电-网院学习平台",
+              "href": "http://www.xdwy.com.cn/learning/loginController.do?login"
+            },
+            {
+              "key": "10349",
+              "title": "陕西师范大学远程教育学院",
+              "href": "http://netstu.snnu.net/CourseList.aspx"
+            }
+          ]
+        },
+        {
+          "key": "10359",
+          "title": "站点",
+          "children": [
+            {
+              "key": "10346",
+              "title": "学信档案",
+              "href": "https://my.chsi.com.cn/archive/index.action"
+            },
+            {
+              "key": "10318",
+              "title": "中国计算机技术职业资格网",
+              "href": "https://www.ruankao.org.cn/"
+            }
+          ]
+        },
+        {
+          "key": "10360",
+          "title": "统考",
+          "children": [
+            {
+              "key": "10348",
+              "title": "统考平台报名系统",
+              "href": "http://student.moe.edu.cn/cdce-preweb/#/index"
+            }
+          ]
+        },
+        {
+          "key": "10393",
+          "title": "自考",
+          "children": [
+            {
+              "key": "10298",
+              "title": "自考，成考，远程，电大 哪种最适合你?",
+              "href": "http://www.stjy.com/productshow/501/"
+            },
+            {
+              "key": "10297",
+              "title": "上海自考网_上海自考本科_上海自考报名_中国教育在线",
+              "href": "https://zikao.eol.cn/shanghai/index.html"
+            }
+          ]
+        },
+        {
+          "key": "10394",
+          "title": "资源",
+          "children": [
+            {
+              "key": "10293",
+              "title": "大学资源网 - 在线教育",
+              "href": "http://www.dxzy163.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "10374",
+      "title": "网盘",
+      "children": [
+        {
+          "key": "10246",
+          "title": "阿里云盘",
+          "href": "https://www.aliyundrive.com/drive"
+        },
+        {
+          "key": "10398",
+          "title": "百度网盘-免费云盘丨文件共享软件丨超大容量丨存储安全",
+          "href": "https://pan.baidu.com/"
+        }
+      ]
+    },
+    {
+      "key": "10039",
+      "title": "聚合",
+      "children": [
+        {
+          "key": "10041",
+          "title": "蓝点网 - 给你感兴趣的内容",
+          "href": "https://www.landiannews.com/"
+        },
+        {
+          "key": "10043",
+          "title": "今日热榜官网",
+          "href": "https://tophub.today/"
+        },
+        {
+          "key": "10534",
+          "title": "eryajf/read-list: 📖 优质内容订阅，阅读方为根本",
+          "href": "https://github.com/eryajf/read-list"
+        },
+        {
+          "key": "10042",
+          "title": "千帆搜索 - 资源超丰富的电报中文搜索引擎，Telegram (TG) 资源搜索网站！",
+          "href": "https://tg.qianfan.app/"
+        },
+        {
+          "key": "10382",
+          "title": "新闻网",
+          "children": [
+            {
+              "key": "10270",
+              "title": "日经中文网--日本经济新闻中文版",
+              "href": "https://cn.nikkei.com/"
+            },
+            {
+              "key": "10271",
+              "title": "FT中文网 － 全球财经精粹",
+              "href": "https://www.ftchinese.com/"
+            },
+            {
+              "key": "10272",
+              "title": "纽约时报中文网 国际纵览",
+              "href": "https://cn.nytimes.com/"
+            },
+            {
+              "key": "10273",
+              "title": "华尔街日报中文网_突发新闻，商业，经济，金融，财经，国际新闻，多媒体，视频_华尔街日报中文版_WSJ_The Wall Street Journal",
+              "href": "https://cn.wsj.com/"
+            },
+            {
+              "key": "10279",
+              "title": "中关村在线 - 大中华区最具商业价值的IT专业网站 - The most valuable and professional IT business website in Greater China",
+              "href": "http://www.zol.com.cn/"
+            }
+          ]
+        },
+        {
+          "key": "10383",
+          "title": "果核",
+          "children": [
+            {
+              "key": "10244",
+              "title": "果核剥壳 - 还原软件的本质",
+              "href": "https://www.ghpym.com/"
+            }
+          ]
+        },
+        {
+          "key": "10384",
+          "title": "查企业",
+          "children": [
+            {
+              "key": "10238",
+              "title": "天眼查-人人都在用企业信息调查工具_企业信息查询_公司查询_工商查询_信用查询平台",
+              "href": "https://www.tianyancha.com/"
+            }
+          ]
+        },
+        {
+          "key": "10390",
+          "title": "摸鱼",
+          "children": [
+            {
+              "key": "10277",
+              "title": "网易跟贴",
+              "href": "http://tie.163.com/"
+            }
+          ]
+        },
+        {
+          "key": "10391",
+          "title": "汇率",
+          "children": [
+            {
+              "key": "10295",
+              "title": "美元对人民币汇率_今日美元兑人民币汇率查询【实时汇率网】",
+              "href": "https://www.huilv.cc/USD_CNY/"
+            }
+          ]
+        },
+        {
+          "key": "10392",
+          "title": "LPR",
+          "children": []
+        },
+        {
+          "key": "10395",
+          "title": "汽车之家",
+          "children": [
+            {
+              "key": "10313",
+              "title": "汽车之家_看车买车用车 都回汽车之家",
+              "href": "https://www.autohome.com.cn/shanghai/"
+            }
+          ]
+        },
+        {
+          "key": "10487",
+          "title": "cmdpe",
+          "children": [
+            {
+              "key": "10488",
+              "title": "CMDPE-3.3-网络VIP版下载",
+              "href": "https://www.cmdpe.com/post/70.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,26 +1,17 @@
 import { Card, Input, message, Space, Tree } from 'antd';
 import { DirectoryTreeProps } from 'antd/es/tree/DirectoryTree';
 import React, { startTransition, useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { useParams } from 'react-router';
 
-import dataNode from '@/assets/咲奈Sakina-bookmark.json';
+import sakinaDataNode from '@/assets/Sakina-bookmark.json';
+import life88DataNode from '@/assets/life88-bookmark.json';
 
 import { BookmarkItem } from './type';
 
-const list: BookmarkItem[] = [dataNode];
-const { key: defaultKey } = dataNode;
-
-const dataList: { key: React.Key; title: string }[] = [];
-const generateList = (data: BookmarkItem[]) => {
-  for (let i = 0; i < data.length; i++) {
-    const node = data[i];
-    const { key } = node;
-    dataList.push({ key, title: key as string });
-    if (node.children) {
-      generateList(node.children);
-    }
-  }
+const dataMap: Record<string, BookmarkItem> = {
+  Sakina: sakinaDataNode,
+  life88: life88DataNode,
 };
-generateList(list);
 
 const getParentKey = (value: string, tree: BookmarkItem[]) => {
   const parentKeys: React.Key[] = [];
@@ -71,6 +62,11 @@ const getTreeData = (keyword: string, tree: BookmarkItem[]) => {
 };
 
 export default function BookmarkPage() {
+  const params = useParams();
+  const { name } = params;
+  const dataNode = dataMap[name!] || {};
+  const list: BookmarkItem[] = [dataNode];
+  const { key: defaultKey } = dataNode;
   const treeRef = useRef<any>();
   const [loading, setLoading] = useState(false);
   const [expandedKeys, setExpandedKeys] = useState<React.Key[]>([defaultKey]);
@@ -104,7 +100,6 @@ export default function BookmarkPage() {
         setExpandedKeys(newExpandedKeys);
         setAutoExpandParent(true);
         setLoading(false);
-        const [firstKey] = newExpandedKeys;
         treeRef.current?.scrollTo?.({ key: defaultKey, align: 'top' });
       });
     } else {

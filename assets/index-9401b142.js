@@ -1,0 +1,1 @@
+import{n as e,L as n}from"./index-1aad0468.js";function o(){return e.jsxs("div",{children:[e.jsx("h3",{children:"Hello everyone~"}),e.jsx("p",{children:e.jsx(n,{to:"/posts",children:"posts"})}),e.jsx("p",{children:e.jsx(n,{to:"/Sakina/bookmark",children:"Sakina bookmark"})})]})}export{o as default};

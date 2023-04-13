@@ -13,5 +13,5 @@ export function keyToPath(key: string) {
   } else {
     key = key.replace(/\.[jt]sx?$/, PLACEHOLDER_TOKEN);
   }
-  return key.replace('$', ':');
+  return key.replace(/\$/g, ':').replace(/\[(\w*)\]/g, ':$1');
 }

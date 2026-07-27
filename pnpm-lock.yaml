@@ -27,14 +27,14 @@ dependencies:
     specifier: ^3.39.3
     version: 3.39.3(react-dom@18.2.0)(react@18.2.0)
   react-router:
-    specifier: ^6.8.2
-    version: 6.8.2(react@18.2.0)
+    specifier: ^8.3.0
+    version: 8.3.0(react-dom@18.2.0)(react@18.2.0)
   react-router-dom:
     specifier: ^6.8.2
     version: 6.8.2(react-dom@18.2.0)(react@18.2.0)
   styled-components:
     specifier: ^5.3.8
-    version: 5.3.8(react-dom@18.2.0)(react-is@19.2.7)(react@18.2.0)
+    version: 5.3.8(react-dom@18.2.0)(react-is@19.2.8)(react@18.2.0)
   valtio:
     specifier: ^1.10.3
     version: 1.10.3(react@18.2.0)
@@ -1478,7 +1478,7 @@ packages:
       babel-plugin-syntax-jsx: 6.18.0
       lodash: 4.17.21
       picomatch: 2.3.2
-      styled-components: 5.3.8(react-dom@18.2.0)(react-is@19.2.7)(react@18.2.0)
+      styled-components: 5.3.8(react-dom@18.2.0)(react-is@19.2.8)(react@18.2.0)
     dev: false
 
   /babel-plugin-syntax-jsx@6.18.0:
@@ -1631,6 +1631,10 @@ packages:
 
   /concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
+
+  /cookie-es@3.1.1:
+    resolution: {integrity: sha512-UaXxwISYJPTr9hwQxMFYZ7kNhSXboMXP+Z3TRX6f1/NyaGPfuNUZOWP1pUEb75B2HjfklIYLVRfWiFZJyC6Npg==}
+    dev: false
 
   /copy-anything@2.0.6:
     resolution: {integrity: sha512-1j20GZTsvKNkc4BY3NpMOM8tt///wY3FpIzozTOFO2ffuZcV61nojHXVKIy3WM+7ADCy5FVhdZYHYDdgTU0yJw==}
@@ -3748,8 +3752,8 @@ packages:
   /react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  /react-is@19.2.7:
-    resolution: {integrity: sha512-kZFnouyVv7eP/Phmrlo9FK+zcAdriZJvzxXHF1Sl1P377WSGe2G/JxVolhTrB/jeV47lKImhNUsijjHAAbcl/A==}
+  /react-is@19.2.8:
+    resolution: {integrity: sha512-s5un28nYxKJw5gvUHyW5PCC28CvBqLu9r3cWgzHT4Vo/5fqqkFcdRYsGcKf50WMPpjjFZS5d76fn3YCo2njKwQ==}
     dev: false
 
   /react-query@3.39.3(react-dom@18.2.0)(react@18.2.0):
@@ -3792,6 +3796,21 @@ packages:
     dependencies:
       '@remix-run/router': 1.3.3
       react: 18.2.0
+    dev: false
+
+  /react-router@8.3.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-qyPMvW83jGIct3yiieisxdk9M745anqhpIMKN5m1t6yBMfgVPpt77aHOqs5fUlEJRMCGffg9BaQLH9oPVOL7xQ==}
+    engines: {node: '>=22.22.0'}
+    peerDependencies:
+      react: '>=19.2.7'
+      react-dom: '>=19.2.7'
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+    dependencies:
+      cookie-es: 3.1.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
     dev: false
 
   /react@18.2.0:
@@ -4140,7 +4159,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /styled-components@5.3.8(react-dom@18.2.0)(react-is@19.2.7)(react@18.2.0):
+  /styled-components@5.3.8(react-dom@18.2.0)(react-is@19.2.8)(react@18.2.0):
     resolution: {integrity: sha512-6jQrlvaJQ16uWVVO0rBfApaTPItkqaG32l3746enNZzpMDxMvzmHzj8rHUg39bvVtom0Y8o8ZzWuchEXKGjVsg==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -4158,7 +4177,7 @@ packages:
       hoist-non-react-statics: 3.3.2
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      react-is: 19.2.7
+      react-is: 19.2.8
       shallowequal: 1.1.0
       supports-color: 5.5.0
     dev: false
